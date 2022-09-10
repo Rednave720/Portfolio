@@ -1,0 +1,9 @@
+img.card-img-top {
+    min-height: 220px !important;;
+    max-height: 220px !important;
+}
+.max-wd-150 {max-width: 150px;}
+
+.home-bg{
+    background: url("assets/NA_1.jpg");
+}
