@@ -41,7 +41,9 @@
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
                                     <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Wireframes</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item copy.html">VS Code</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item copy 2.html">Website Draft</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -162,7 +164,7 @@
                                 <img class="card-img-top" src="assets/60aee9ab16947b2d39b4093f_10-best-wireframe-tools-for-designers-2021_BlogHero_R2.png" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Draft</h5></a>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Website Draft</h5></a>
                                     <p class="card-text mb-0">View my drafts and prototypes that are ready to be altered to fit the vision you have for your website design </p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -175,8 +177,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div></div>
-                    <!-- Call to actiongg-->
+                    </div>
+                </div>
+                    <!-- Call to action-->
                     <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                         <div class="container">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
@@ -185,11 +188,13 @@
                                 <div class="text-white-50">Sign up & Download my Resume</div>
                             </div>
                             <div class="ms-xl-4">
+                                <form id="contactForm" netlify>
                                 <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                    <button class="btn btn-outline-light" id="email" type="button">Sign up</button>
                                 </div>
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+                            </form>
                             </div>
                         </div>
                         </div>
