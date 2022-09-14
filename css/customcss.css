@@ -2,10 +2,23 @@ img.card-img-top {
     min-height: 220px !important;
     max-height: 220px !important;
 }
+.hide {
+    display: none;
+}
 
-
+.portfolio-bg {
+    height: 400px;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-bottom: 3em;
+}
 
 .max-wd-150 {max-width: 150px;}
+.max-ht-500 {
+    max-height: 500px;
+    min-height: 500px;
+}
+.text-center {text-align: center;}
 
 .home-bg{
     background: url("assets/NA_1.jpg");
