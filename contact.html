@@ -74,10 +74,25 @@
             </div>
             <!-- Email address input-->
             <div class="form-floating mb-3">
-                <input class="form-control" type="email" placeholder="Enter your email..." data-sb-validations="required" name="email" />
-                <label for="email">Full email</label>
+                <input class="form-control" type="email" placeholder="Enter your email..." data-sb-validations="required,email" name="email" />
+                <label for="email">Email Address</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
             </div>
+            <!-- Email address input-->
+            <div class="form-floating mb-3">
+                <input class="form-control" type="phone" placeholder="(123) 456-7890" data-sb-validations="required" name="phone" />
+                <label for="email">Phone Number</label>
+                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+
+            <!-- Purpose Input -->
+            <div class="form-floating mb-3">
+                <select class="form-control" type="purpose" name="purpose">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                </select>
             <!-- Submit error message I'm typing to see when I can commit next weirdly enough-->
             <!---->
             <!-- This is what your users will see when there is-->
