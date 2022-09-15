@@ -65,11 +65,12 @@
                                 <!-- https://startbootstrap.com/solution/contact-forms-->
                                 <!-- to get an API token!-->
         <!-- Core theme CSS (includes Bootstrap)-->
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true">
             <!-- Name input-->
             <div class="form-floating mb-3">
-                <input id="name" type="text" placeholder="Enter your name..." name="name">
+                <input class="form-control" type="text" placeholder="Enter your name..." data-sb-validations="required" name="name" />
                 <label for="name">Full name</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
             </div>
             <!-- Email address input-->
             <!-- Submit error message-->
