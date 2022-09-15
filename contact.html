@@ -74,18 +74,16 @@
             </div>
             <!-- Email address input-->
             <div class="form-floating mb-3">
-                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" email="email" />
-                <label for="email">Email address</label>
+                <input class="form-control" type="text" placeholder="Enter your email..." data-sb-validations="required" email="email" />
+                <label for="name">Full email</label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
             </div>
             <!-- Phone number input-->
             <div class="form-floating mb-3">
-                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" tel="tel" />
-                <label for="phone">Phone number</label>
-                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                <input class="form-control" type="text" placeholder="Enter your name..." data-sb-validations="required" name="name" />
+                <label for="name">Full name</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
             </div>
-
             <!-- Submit error message-->
             <!---->
             <!-- This is what your users will see when there is-->
