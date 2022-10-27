@@ -23,3 +23,12 @@ img.card-img-top {
 .home-bg{
     background: url("assets/NA_1.jpg");
 }
+
+.intro {
+    background-image: url(https://mdbootstrap.com/img/new/fluid/city/008.jpg);
+    height: 100vh;
+    min-width: 992px;
+    margin-top: -58.59px;
+}
+
+  /* Height for devices larger than 576px */
